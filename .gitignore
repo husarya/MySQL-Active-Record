@@ -1,0 +1,6 @@
+#Ignore
+
+.class
+.project
+/bin
+.iml
