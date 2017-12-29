@@ -20,7 +20,7 @@ public class Admin {
 					+	">add - to create new user \n" 
 					+	">delete - to remove user \n" 
 					+	">edit - to edit existing user \n"
-					+   ">all - prints all users \n"
+					+       ">all - prints all users \n"
 					+	">quit - to exit application");
 
 			opt = scan.nextLine();
@@ -48,7 +48,7 @@ public class Admin {
 			}else if (opt.equals("delete")) {
 
 				System.out.println("Select id of user you want to delete");
-                root.findAll();
+                                root.findAll();
 				Integer userId = scan.nextInt();
 
 				System.out.println("Deleting...");
