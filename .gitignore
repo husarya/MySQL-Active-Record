@@ -4,3 +4,6 @@
 .project
 /bin
 .iml
+.classpath
+/.idea
+.xml
