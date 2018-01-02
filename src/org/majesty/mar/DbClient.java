@@ -8,8 +8,8 @@ import java.sql.SQLException;
 public class DbClient {
 
 	private static String DB_URL = "jdbc:mysql://localhost:3306/Workshop?useSSL=false";
-	private static String DB_USER = "husarya";
-	private static String DB_PASS = "kepa8901";
+	private static String DB_USER = "login";
+	private static String DB_PASS = "password";
 
 	public static Connection getConnection() throws SQLException {
 		try {
